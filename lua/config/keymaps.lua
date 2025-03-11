@@ -2,8 +2,8 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
--- 开启neo-tree
-vim.keymap.set('n', '<leader>e', ':Neotree<CR>', { desc = 'Toggle NeoTree' })
+-- 开启或关闭neo-tree
+vim.keymap.set('n', '<leader>e', ':Neotree toggle<CR>', { desc = 'Toggle NeoTree' })
 
 -- 切换焦点到 neo-tree
 vim.keymap.set('n', '<C-h>', ':Neotree focus<CR>', { desc = 'Focus on NeoTree' })
